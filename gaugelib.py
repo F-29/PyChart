@@ -1,1 +1,253 @@
-{"data":[{"id":"d7bee3b1-5225-494c-c375-72931c7407bf","last_modified":1588010234951,"bucket":"main","collection":"ms-language-packs","host":"firefox.settings.services.mozilla.com"},{"id":"b7f595f9-5fc5-d863-b5dd-e5425dcf427a","last_modified":1588004938454,"bucket":"blocklists","collection":"addons","host":"firefox.settings.services.mozilla.com"},{"id":"8da7db1e-dffb-18c9-2efe-0e9d7459a0f4","last_modified":1588003948983,"bucket":"main","collection":"normandy-recipes","host":"firefox.settings.services.mozilla.com"},{"id":"e9f76a09-1c31-7dce-7c40-8abfbcfb244d","last_modified":1588003789852,"bucket":"main","collection":"normandy-recipes-capabilities","host":"firefox.settings.services.mozilla.com"},{"id":"6133f0b4-fe59-a2ad-6839-b159c6dabc9c","last_modified":1587996767200,"bucket":"main-preview","collection":"ms-language-packs","host":"firefox.settings.services.mozilla.com"},{"id":"c6671b58-a04c-2753-1904-decfb584f9ce","last_modified":1587992303749,"bucket":"blocklists-preview","collection":"addons","host":"firefox.settings.services.mozilla.com"},{"id":"2e5fede5-45b1-2e91-626c-371c244ad1b2","last_modified":1587758074719,"bucket":"main-preview","collection":"public-suffix-list","host":"firefox.settings.services.mozilla.com"},{"id":"4d560cea-17fd-4d5e-c3d6-98c7f311cfbc","last_modified":1587741320095,"bucket":"main","collection":"messaging-experiments","host":"firefox.settings.services.mozilla.com"},{"id":"96a828fa-60fe-13e7-4606-15ffa6643a48","last_modified":1587741062923,"bucket":"main-preview","collection":"messaging-experiments","host":"firefox.settings.services.mozilla.com"},{"id":"aea574eb-2997-6453-0c09-1851fc1b2561","last_modified":1587657488286,"bucket":"main","collection":"search-config","host":"firefox.settings.services.mozilla.com"},{"id":"c2349d3f-a0f0-2550-1e35-ee993f8a1c8d","last_modified":1587600086601,"bucket":"main-preview","collection":"fxmonitor-breaches","host":"firefox.settings.services.mozilla.com"},{"id":"1611c176-3998-f3df-07b7-c1858138d48b","last_modified":1587490903208,"bucket":"main","collection":"whats-new-panel","host":"firefox.settings.services.mozilla.com"},{"id":"b4759cb6-c501-cea0-ba70-8ab04c89b171","last_modified":1587487741201,"bucket":"main-preview","collection":"whats-new-panel","host":"firefox.settings.services.mozilla.com"},{"id":"eae22ba6-631d-fcab-fa53-8a7c5adb39a9","last_modified":1587398477982,"bucket":"security-state","collection":"cert-revocations","host":"firefox.settings.services.mozilla.com"},{"id":"adc73734-8581-67a0-0516-1d0e427a8cbd","last_modified":1587398433138,"bucket":"security-state-preview","collection":"cert-revocations","host":"firefox.settings.services.mozilla.com"},{"id":"8ee6692e-d686-a614-6e4f-23d71b55b7f3","last_modified":1587384710394,"bucket":"main","collection":"fxmonitor-breaches","host":"firefox.settings.services.mozilla.com"},{"id":"d6bac357-17c7-e551-94e7-9fb97f908dec","last_modified":1587149088872,"bucket":"main-preview","collection":"search-config","host":"firefox.settings.services.mozilla.com"},{"id":"274942c0-0ac3-cabd-0eca-3889bdfa926b","last_modified":1586958189212,"bucket":"main","collection":"cfr","host":"firefox.settings.services.mozilla.com"},{"id":"461e4691-5c0d-5dad-321d-cd9d61a5c640","last_modified":1586945892017,"bucket":"main-preview","collection":"cfr","host":"firefox.settings.services.mozilla.com"},{"id":"1d402bfe-4765-79b2-df44-da88d9c24c96","last_modified":1585237415718,"bucket":"main","collection":"cfr-fxa","host":"firefox.settings.services.mozilla.com"},{"id":"860c5853-ce4e-c835-a13b-9024387298e2","last_modified":1585234283324,"bucket":"main-preview","collection":"cfr-fxa","host":"firefox.settings.services.mozilla.com"},{"id":"c521b443-368f-2e18-a853-066abaa1e9e3","last_modified":1584550036719,"bucket":"blocklists","collection":"addons-bloomfilters","host":"firefox.settings.services.mozilla.com"},{"id":"958b14fa-88b0-ec42-8e68-464502a21eb1","last_modified":1584381177442,"bucket":"main","collection":"personality-provider-recipe","host":"firefox.settings.services.mozilla.com"},{"id":"19e79f22-62cf-92e1-c12c-a3b4b9cf51be","last_modified":1584379093300,"bucket":"blocklists","collection":"plugins","host":"firefox.settings.services.mozilla.com"},{"id":"3f33d824-d485-658d-ab8e-f498e6f83c8a","last_modified":1584373049006,"bucket":"main-preview","collection":"personality-provider-recipe","host":"firefox.settings.services.mozilla.com"},{"id":"3ace9d8e-00b5-a353-7fd5-1f081ff482ba","last_modified":1584351385263,"bucket":"blocklists-preview","collection":"plugins","host":"firefox.settings.services.mozilla.com"},{"id":"0e543556-43bf-3139-1fda-2a0068116c6d","last_modified":1584052381837,"bucket":"blocklists","collection":"certificates","host":"firefox.settings.services.mozilla.com"},{"id":"4dd906e9-fe4e-fd64-8138-a2c7260b2199","last_modified":1584052365964,"bucket":"security-state","collection":"onecrl","host":"firefox.settings.services.mozilla.com"},{"id":"58d1976f-6e75-7728-79da-f4860ed35de5","last_modified":1584034824486,"bucket":"security-state-preview","collection":"onecrl","host":"firefox.settings.services.mozilla.com"},{"id":"4bbeba46-f780-10cb-16ea-2bc48ec77807","last_modified":1583189675529,"bucket":"main-preview","collection":"url-classifier-skip-urls","host":"firefox.settings.services.mozilla.com"},{"id":"2a96d2c2-ee2c-92d9-4415-3996dd1aef47","last_modified":1582750412802,"bucket":"main","collection":"url-classifier-skip-urls","host":"firefox.settings.services.mozilla.com"},{"id":"0d61e3ec-c708-b839-512a-e09c3f5f1880","last_modified":1581703205374,"bucket":"main","collection":"personality-provider-models","host":"firefox.settings.services.mozilla.com"},{"id":"58667b5b-2afa-c9ea-a95d-d6081529dbee","last_modified":1581701665749,"bucket":"main-preview","collection":"personality-provider-models","host":"firefox.settings.services.mozilla.com"},{"id":"9a0cf117-f8e7-4420-cc60-9fac2c2f6ffa","last_modified":1580831371709,"bucket":"security-state","collection":"intermediates","host":"firefox.settings.services.mozilla.com"},{"id":"7b3f0682-64fd-7b37-3126-3934ea377bcb","last_modified":1580831342926,"bucket":"security-state-preview","collection":"intermediates","host":"firefox.settings.services.mozilla.com"},{"id":"2ca9d0dc-f44b-9e48-5f37-37a90600b10f","last_modified":1580463706578,"bucket":"main","collection":"mobile-experiments","host":"firefox.settings.services.mozilla.com"},{"id":"23ee4721-520a-33d1-2063-51f8ff4fed96","last_modified":1580459539388,"bucket":"main-preview","collection":"mobile-experiments","host":"firefox.settings.services.mozilla.com"},{"id":"dcc5b2e0-1509-ce9e-cb9d-84e038543a6f","last_modified":1575892856488,"bucket":"main","collection":"cfr-ml-control","host":"firefox.settings.services.mozilla.com"},{"id":"4041d699-bca8-1109-d1c3-878228c14b86","last_modified":1575892856034,"bucket":"main-preview","collection":"cfr-ml-control","host":"firefox.settings.services.mozilla.com"},{"id":"85edafff-d4d8-598b-fe7d-b003046fc724","last_modified":1575892855529,"bucket":"main","collection":"cfr-ml-experiments","host":"firefox.settings.services.mozilla.com"},{"id":"451d13e8-f4a8-4bec-c794-b83f1373cfcf","last_modified":1575892855066,"bucket":"main-preview","collection":"cfr-ml-experiments","host":"firefox.settings.services.mozilla.com"},{"id":"16830b5a-335a-4c59-77ed-b19db189ebc6","last_modified":1575892854600,"bucket":"main","collection":"cfr-ml-models","host":"firefox.settings.services.mozilla.com"},{"id":"5f39c5e3-7a2a-3868-c29d-e7f11d76d66b","last_modified":1575468539758,"bucket":"main","collection":"public-suffix-list","host":"firefox.settings.services.mozilla.com"},{"id":"e42f495f-e3fb-6d65-4edd-51dd0f3985f3","last_modified":1573556826481,"bucket":"blocklists-preview","collection":"qa","host":"firefox.settings.services.mozilla.com"},{"id":"8451eb15-8141-758c-6dd1-6d9f04146fa9","last_modified":1572620201554,"bucket":"main","collection":"hijack-blocklists","host":"firefox.settings.services.mozilla.com"},{"id":"cdf5b0ef-a720-05b9-cc9f-ca272d916d46","last_modified":1572620201554,"bucket":"main-preview","collection":"hijack-blocklists","host":"firefox.settings.services.mozilla.com"},{"id":"e02dce4c-7a13-3dda-6e62-d6d9084e82f5","last_modified":1569443132800,"bucket":"main","collection":"cfr-srg","host":"firefox.settings.services.mozilla.com"},{"id":"ad9b4281-cfdf-902c-de11-366a78030ed5","last_modified":1569443132231,"bucket":"main-preview","collection":"cfr-srg","host":"firefox.settings.services.mozilla.com"},{"id":"8c581745-110d-0d30-f0f2-fe999bc1fde7","last_modified":1569410800356,"bucket":"main","collection":"language-dictionaries","host":"firefox.settings.services.mozilla.com"},{"id":"9f66a403-06b9-1f49-179b-8bde4f9e1d3a","last_modified":1569410800356,"bucket":"main-preview","collection":"language-dictionaries","host":"firefox.settings.services.mozilla.com"},{"id":"cbc1c616-db66-8b4e-15ae-b9d6cdbea3c7","last_modified":1568326431050,"bucket":"main","collection":"fftv-experiments","host":"firefox.settings.services.mozilla.com"},{"id":"2c0ca1ec-9185-5edf-469e-e15985d42f55","last_modified":1568326431050,"bucket":"main-preview","collection":"fftv-experiments","host":"firefox.settings.services.mozilla.com"},{"id":"714b69f3-69fb-0b5e-9c4a-e73c07aa2858","last_modified":1566407742291,"bucket":"main","collection":"tracking-protection-lists","host":"firefox.settings.services.mozilla.com"},{"id":"45bf3f78-8f3f-28f6-5a1d-8a2bb6d3a2b2","last_modified":1566407741578,"bucket":"main-preview","collection":"tracking-protection-lists","host":"firefox.settings.services.mozilla.com"},{"id":"248f8630-6807-ab30-6370-14918dc824c2","last_modified":1564511755134,"bucket":"main","collection":"anti-tracking-url-decoration","host":"firefox.settings.services.mozilla.com"},{"id":"4ceae968-33e3-b09e-fce7-87edfd15923a","last_modified":1564511755134,"bucket":"main-preview","collection":"anti-tracking-url-decoration","host":"firefox.settings.services.mozilla.com"},{"id":"e4764d29-ebad-2f17-3945-cdff8214f400","last_modified":1563206404819,"bucket":"main","collection":"tippytop","host":"firefox.settings.services.mozilla.com"},{"id":"101f5b7a-c0d0-247e-2c0d-0cc89d5ff7c2","last_modified":1563206404819,"bucket":"main-preview","collection":"tippytop","host":"firefox.settings.services.mozilla.com"},{"id":"0164d8d8-c422-4215-1f5a-70f62b85bf44","last_modified":1562796064168,"bucket":"main","collection":"focus-experiments","host":"firefox.settings.services.mozilla.com"},{"id":"e1afa4ff-ea74-d142-eff6-4c5c3d27ce8c","last_modified":1562796064168,"bucket":"main-preview","collection":"focus-experiments","host":"firefox.settings.services.mozilla.com"},{"id":"7154e466-8bf6-4a7d-8a96-65b3f8359d8c","last_modified":1561052996982,"bucket":"main","collection":"fenix-experiments","host":"firefox.settings.services.mozilla.com"},{"id":"ee9ce2cf-8fec-3eab-da2b-190720965569","last_modified":1561052996982,"bucket":"main-preview","collection":"fenix-experiments","host":"firefox.settings.services.mozilla.com"},{"id":"4cc182c3-8d71-17b8-f571-d63eb7b787c8","last_modified":1549456980819,"bucket":"main","collection":"lite-experiments","host":"firefox.settings.services.mozilla.com"},{"id":"f585a002-541c-0509-32f5-8efcdc24aed7","last_modified":1549456980305,"bucket":"main-preview","collection":"lite-experiments","host":"firefox.settings.services.mozilla.com"},{"id":"0ad92238-e4ce-dd27-57f8-c97134add3c9","last_modified":1544035467383,"bucket":"main","collection":"sites-classification","host":"firefox.settings.services.mozilla.com"},{"id":"2c434b22-08f9-ed9a-914c-ef5c30ebcb82","last_modified":1544035467383,"bucket":"main-preview","collection":"sites-classification","host":"firefox.settings.services.mozilla.com"},{"id":"4c6bb163-e264-7c3e-6b02-412ddc32be07","last_modified":1537170034262,"bucket":"main","collection":"rocket-prefs","host":"firefox.settings.services.mozilla.com"},{"id":"95dc1028-5939-3fd0-dfc7-fa6dcb165dee","last_modified":1537170034262,"bucket":"main-preview","collection":"rocket-prefs","host":"firefox.settings.services.mozilla.com"},{"id":"be77064f-af40-d297-93f9-91e676ec04ea","last_modified":1518124248842,"bucket":"blocklists-preview","collection":"gfx","host":"firefox.settings.services.mozilla.com"},{"id":"061d4584-acd0-fecc-b5fb-dcfe0ad5e123","last_modified":1518124248754,"bucket":"blocklists","collection":"qa","host":"firefox.settings.services.mozilla.com"},{"id":"572c31dd-2d29-b864-86bc-bd99ac6129b6","last_modified":1511202251640,"bucket":"pinning-preview","collection":"pins","host":"firefox.settings.services.mozilla.com"},{"id":"deefc6d1-267f-0445-3168-232db4582d75","last_modified":1485794868067,"bucket":"pinning","collection":"pins","host":"firefox.settings.services.mozilla.com"},{"id":"3fadb169-e5de-a2f0-374e-6eeb3eac3dbb","last_modified":1480349135384,"bucket":"blocklists","collection":"gfx","host":"firefox.settings.services.mozilla.com"}]}µƒÊßM      ^§&Å^§&ÅA›Á^§+   {    :https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/records?_expected=%221588010234951%22 strongly-framed 1 security-info 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
+import tkinter as tk
+import cmath
+import sys
+import logging
+import math
+import time
+from decimal import Decimal
+
+#exec(open('images.py').read())
+
+class ini(tk.Frame):
+    def __init__(self, parent, size=100, **options):
+        tk.Frame.__init__(self, parent, padx=0, pady=0, borderwidth=0,highlightthickness=0,
+                          **options)
+        self.size = size
+    def to_absolute(self, x, y):
+        return x + self.size/2, y + self.size/2
+		
+def draw_dial(canv,x0,y0,degree, t,r):
+    this_color = "#00A2E8"
+    xr=x0
+    yr=y0
+    angle = math.radians(degree)
+    cos_val = math.cos(angle)
+    sin_val = math.sin(angle)
+    dy=r*sin_val
+    dx=r*cos_val
+    dx2=t*sin_val
+    dy2=t*cos_val
+    mlx=xr+dx
+    mly=yr-dy
+    mrx=xr-dx
+    mry=yr+dy
+    px=xr+dx2
+    py=yr+dy2
+    xy = x0-r,y0-r,x0+1*r,y0+1*r
+    xyz = mlx,mly,px,py,mrx,mry
+    canv.delete('dial')
+    canv.create_arc(xy,start=degree,extent=180,fill=this_color,tags=('dial', 'one', 'two', 'three', 'four'))
+    canv.create_polygon(xyz, fill=this_color,tags=('dial', 'two'))
+    canv.create_oval(xr-5,yr-5,xr+5,yr+5,fil=this_color,tags=('dial', 'three'))
+    canv.create_line(xr,yr,px,py,fill="light gray",tags=('dial', 'four'))
+    
+class DrawGauge2(ini):
+    def __init__(self, parent,
+                 max_value: (float, int)=100.0,
+                 min_value: (float, int)= 0.0,
+                 size: (float, int)=100,
+                 img_data: str=None,
+                 bg_col:str='blue',unit: str=None,bg_sel=1,
+                 **options):
+        super().__init__(parent, size=size, **options)
+
+        self.max_value = float(max_value)
+        self.min_value = float(min_value)
+        self.size = size
+        self.bg_col = bg_col
+        self.bg_sel=bg_sel
+        self.unit = '' if not unit else unit
+        self.canvas = tk.Canvas(self, width=self.size, height=self.size-self.size/12,bg=bg_col,highlightthickness=0)
+        self.canvas.grid(row=0)
+        if self.bg_sel == 1:
+            self.draw_background1()
+        else:
+            self.draw_background2()
+        self.draw_tick()
+        initial_value = 0.0
+        self.set_value(initial_value)
+        
+    def draw_background1(self, divisions=100):
+        self.canvas.create_arc(self.size/50, self.size/50, self.size-self.size/50, self.size-self.size/50,
+                       style="arc",width=4,start=-61, extent=300,
+                       outline = "gray")#style=tk.PIESLICE
+        self.canvas.create_arc(self.size/20, self.size/20, self.size-self.size/20, self.size-self.size/20,
+                       style="arc",width=self.size/20,start=-61, extent=300,
+                       outline = "light gray")#style=tk.PIESLICE
+
+        self.canvas.create_arc(self.size/7, self.size/7, self.size-self.size/7, self.size-self.size/7,
+                               style="arc",width=self.size/9,start=-61, extent=91,
+                               outline = "red2")#style=tk.PIESLICE
+        self.canvas.create_arc(self.size/7, self.size/7, self.size-self.size/7, self.size-self.size/7,
+                               width=self.size/9,style="arc",start=150, extent=90,
+                               outline = "orange")
+        self.readout = self.canvas.create_text(self.size/2,4*self.size/5, font=("Arial",int(self.size/18),'bold'),fill="white", text='')
+
+        
+    def draw_background2(self, divisions=100):
+        self.canvas.create_arc(self.size/5, self.size/6, self.size-self.size/6, self.size-self.size/6,
+                               style="arc",width=self.size/10,start=-61, extent=61,
+                               outline = "red")#style=tk.PIESLICE
+        self.canvas.create_arc(self.size/6, self.size/6, self.size-self.size/6, self.size-self.size/6,
+                               width=self.size/10,style="arc", start=0, extent=60,
+                               outline = "orange")
+        self.canvas.create_arc(self.size/6, self.size/6, self.size-self.size/6, self.size-self.size/6,
+                               width=self.size/10,style="arc",start=60, extent=60,
+                               outline = "yellow")
+        self.canvas.create_arc(self.size/6, self.size/6, self.size-self.size/6, self.size-self.size/6,
+                               width=self.size/10,style="arc",start=120, extent=60,
+                               outline = "light green")
+        self.canvas.create_arc(self.size/6, self.size/6, self.size-self.size/6, self.size-self.size/6,
+                               width=self.size/10,style="arc",start=180, extent=60,
+                               outline = "green")
+        self.readout = self.canvas.create_text(self.size/2,4*self.size/5, font=("Arial",int(self.size/18),'bold'),fill="white", text='')
+        
+    def draw_tick(self,divisions=100):
+        inner_tick_radius = int((self.size-self.size/9) * 0.35)
+        outer_tick_radius = int((self.size-self.size/9) * 0.45)
+        label = self.unit
+        self.canvas.create_text(self.size/2,2*self.size/5, font=("Arial",int(self.size/20)),fill="white", text=label,angle=0)
+        label = 'Ardiotech'
+        self.canvas.create_text(self.size/2,3*self.size/5, font=("Arial",int(self.size/18),'bold'),fill="light blue", text=label,angle=0)
+        self.readout = self.canvas.create_text(self.size/2,4*self.size/5, font=("Arial",int(self.size/18),'bold'),fill="white", text='')
+        inner_tick_radius2 = int((self.size-self.size/9) * 0.48)
+        outer_tick_radius2 = int((self.size-self.size/9) * 0.50)
+        inner_tick_radius3 = int((self.size-self.size/9) * 0.35)
+        outer_tick_radius3 = int((self.size-self.size/9) * 0.40)
+        for tick in range(divisions+1):
+            angle_in_radians = (2.0 * cmath.pi / 3.0)+tick/divisions * (5.0 * cmath.pi / 3.0)
+            inner_point = cmath.rect(inner_tick_radius, angle_in_radians)
+            outer_point = cmath.rect(outer_tick_radius, angle_in_radians)
+            if (tick%10) == 0:
+                self.canvas.create_line(
+                    *self.to_absolute(inner_point.real, inner_point.imag),
+                    *self.to_absolute(outer_point.real, outer_point.imag),
+                    width=2,fill='blue')
+            else:
+                inner_point3 = cmath.rect(inner_tick_radius3, angle_in_radians)
+                outer_point3 = cmath.rect(outer_tick_radius3, angle_in_radians)
+                self.canvas.create_line(
+                    *self.to_absolute(inner_point3.real, inner_point3.imag),
+                    *self.to_absolute(outer_point3.real, outer_point3.imag),
+                    width=1,fill='black')
+            if (tick%10) == 0:
+                inner_point2 = cmath.rect(inner_tick_radius2, angle_in_radians)
+                outer_point2 = cmath.rect(outer_tick_radius2, angle_in_radians)
+                x= outer_point2.real + self.size/2
+                y= outer_point2.imag + self.size/2
+                label = str(int(self.min_value + tick * (self.max_value-self.min_value)/100))
+                self.canvas.create_text(x,y, font=("Arial",int(self.size/25)),fill="white", text=label)
+                
+    def set_value(self, number: (float, int)):
+        number = number if number <= self.max_value else self.max_value
+        number = number if number > self.min_value else self.min_value
+        degree = 30.0 + (number- self.min_value) / (self.max_value - self.min_value) * 300.0
+        draw_dial(self.canvas,self.size/2,self.size/2,-1*degree,self.size/3,8)
+        label = str('%.2f' % number)
+        self.canvas.delete(self.readout)
+        self.readout = self.canvas.create_text(self.size/2,4*self.size/5, font=("Arial",int(self.size/14),'bold'),fill="white", text=label,angle=0)
+
+class DrawGauge3(ini):
+    def __init__(self, parent,
+                 max_value: (float, int)=100.0,
+                 min_value: (float, int)= 0.0,
+                 size: (float, int)=100,
+                 img_data: str=None,
+                 bg_col:str='blue',unit: str=None,bg_sel=1,
+                 **options):
+        super().__init__(parent, size=size, **options)
+
+        self.max_value = float(max_value)
+        self.min_value = float(min_value)
+        self.size = size
+        self.bg_col = bg_col
+        self.unit = '' if not unit else unit
+        self.canvas = tk.Canvas(self, width=self.size, height=3*self.size/5,bg=bg_col,highlightthickness=0)
+        self.canvas.grid(row=0)
+        self.bg_sel = bg_sel
+        if self.bg_sel ==1:
+            self.draw_background1()
+        else:
+            self.draw_background2()
+        self.draw_tick()
+        initial_value = 0.0
+        self.set_value(initial_value)
+    
+    def draw_background1(self, divisions=100):
+        self.canvas.create_arc(self.size/50, self.size/50, self.size-self.size/50, self.size-self.size/50,
+                       style="arc",width=4,start=0, extent=180,
+                       outline = "gray")#style=tk.PIESLICE
+        self.canvas.create_arc(self.size/20, self.size/20, self.size-self.size/20, self.size-self.size/20,
+                       style="arc",width=self.size/20,start=0, extent=180,
+                       outline = "light gray")#style=tk.PIESLICE
+        self.canvas.create_arc(self.size/7, self.size/7, self.size-self.size/7, self.size-self.size/7,
+                               style="arc",width=self.size/9,start=0, extent=60,
+                               outline = "orange")#style=tk.PIESLICE
+        good_color = "#00A2E8"
+        self.canvas.create_arc(self.size/7, self.size/7, self.size-self.size/7, self.size-self.size/7,
+                               width=self.size/9,style="arc",start=60, extent=60,
+                               outline = good_color)
+        self.canvas.create_arc(self.size/7, self.size/7, self.size-self.size/7, self.size-self.size/7,
+                               width=self.size/9,style="arc",start=120, extent=60,
+                               outline = "light green")
+        self.readout = self.canvas.create_text(self.size/2,4*self.size/5, font=("Arial",int(self.size/18),'bold'),fill="white", text='')
+    
+    def draw_background2(self, divisions=100):
+        self.canvas.create_arc(self.size/7, self.size/7, self.size-self.size/7, self.size-self.size/7,
+                               style="arc",width=self.size/9,start=0, extent=60,
+                               outline = "orange")#style=tk.PIESLICE
+        good_color = "#00A2E8"
+        self.canvas.create_arc(self.size/7, self.size/7, self.size-self.size/7, self.size-self.size/7,
+                               width=self.size/9,style="arc",start=60, extent=60,
+                               outline = good_color)
+        self.canvas.create_arc(self.size/7, self.size/7, self.size-self.size/7, self.size-self.size/7,
+                               width=self.size/9,style="arc",start=120, extent=60,
+                               outline = "light green")
+        self.readout = self.canvas.create_text(self.size/2,4*self.size/5, font=("Arial",int(self.size/18),'bold'),fill="white", text='')
+
+    def draw_tick(self, divisions=100):
+        inner_tick_radius = int((self.size-self.size/9) * 0.35)
+        outer_tick_radius = int((self.size-self.size/9) * 0.45)
+        label = self.unit
+        self.canvas.create_text(self.size/2,3*self.size/10, font=("Arial",int(self.size/20)),fill="red", text=label,angle=0)
+        label = 'Ardiotech'
+        self.canvas.create_text(self.size/2,4*self.size/10, font=("Arial",int(self.size/18),'bold'),fill="light blue", text=label,angle=0)
+        self.readout = self.canvas.create_text(self.size/2,4*self.size/5, font=("Arial",int(self.size/18),'bold'),fill="dark blue", text='')
+        inner_tick_radius2 = int((self.size-self.size/9) * 0.48)
+        outer_tick_radius2 = int((self.size-self.size/9) * 0.50)
+        inner_tick_radius3 = int((self.size-self.size/9) * 0.35)
+        outer_tick_radius3 = int((self.size-self.size/9) * 0.40)
+
+        for tick in range(divisions+1):
+            angle_in_radians = (cmath.pi)+ tick/divisions * cmath.pi
+            inner_point = cmath.rect(inner_tick_radius, angle_in_radians)
+            outer_point = cmath.rect(outer_tick_radius, angle_in_radians)
+            
+
+            if (tick%10) == 0:
+                self.canvas.create_line(
+                    *self.to_absolute(inner_point.real, inner_point.imag),
+                    *self.to_absolute(outer_point.real, outer_point.imag),
+                    width=2,fill='blue')
+            else:
+                inner_point3 = cmath.rect(inner_tick_radius3, angle_in_radians)
+                outer_point3 = cmath.rect(outer_tick_radius3, angle_in_radians)
+                self.canvas.create_line(
+                    *self.to_absolute(inner_point3.real, inner_point3.imag),
+                    *self.to_absolute(outer_point3.real, outer_point3.imag),
+                    width=1,fill='light blue')
+            if (tick%10) == 0:
+                inner_point2 = cmath.rect(inner_tick_radius2, angle_in_radians)
+                outer_point2 = cmath.rect(outer_tick_radius2, angle_in_radians)
+                x= outer_point2.real + self.size/2
+                y= outer_point2.imag + self.size/2
+                label = str(int(self.min_value + tick * (self.max_value-self.min_value)/100))
+                self.canvas.create_text(x,y, font=("Arial",int(self.size/25)),fill="white", text=label)
+    def set_value(self, number: (float, int)):
+        number = number if number <= self.max_value else self.max_value
+        number = number if number > self.min_value else self.min_value
+        degree = 90.0 + (number- self.min_value) / (self.max_value - self.min_value) * 180.0
+        draw_dial(self.canvas,self.size/2,self.size/2,-1*degree,self.size/3,8)
+        label = str('%.2f' % number)
+        self.canvas.delete(self.readout)
+        self.readout = self.canvas.create_text(self.size/3-5,self.size/2+5, font=("Arial",int(self.size/16),'bold'),fill="white", text=label,angle=0)
