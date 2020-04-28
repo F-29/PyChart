@@ -11,9 +11,11 @@ store_data = []
 
 # endregion
 
-date = str(str(datetime.datetime.now()).replace('.', "-"))
-date = str(str(date).replace(':', "-"))
-file_path = str(utils.resource_path("data") + "_" + date + ".xlsx").replace(' ', "_")
+# region Excel path fixing
+file_path = utils.fix_path()
+
+
+# endregion
 
 
 def read_serial_and_save():
@@ -35,6 +37,8 @@ if __name__ == '__main__':
         if utils.is_arduino_connected():
             win = utils.create_win()
             port = utils.find_arduino_connected_port()
+            exit_btn = Button(win, text="Exit", command=exit)
+            exit_btn.pack(side=BOTTOM)
             p1 = gaugelib.DrawGauge2(
                 win,
                 max_value=125.0,
@@ -42,10 +46,10 @@ if __name__ == '__main__':
                 size=435,
                 bg_col='black',
                 unit="ADC value %", bg_sel=2)
-            p1.pack()
+            p1.pack(side=BOTTOM)
+            read_from_excel_btn = Button(win, text="load excel file", command=utils.read_excel_and_play)
+            read_from_excel_btn.pack(side=TOP)
             read_serial_and_save()
-            btn = Button(win, text="Exit", command=exit)
-            btn.pack()
             mainloop()
         else:
             if utils.is_arduino_connected():

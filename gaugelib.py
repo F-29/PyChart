@@ -129,7 +129,7 @@ class DrawGauge2(ini):
             outer_point = cmath.rect(outer_tick_radius, angle_in_radians)
             # here !
             if (tick % 10) == 0:
-                if int(tick) != 90 | int(tick) != 100:
+                if int(tick) != 100:
                     self.canvas.create_line(
                         *self.to_absolute(inner_point.real, inner_point.imag),
                         *self.to_absolute(outer_point.real, outer_point.imag),
