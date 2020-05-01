@@ -1,10 +1,25 @@
 import os
 import datetime
+import time
 from tkinter import *
 import tkinter as tk
-from tkinter.filedialog import askopenfilename
+from tkinter.filedialog import askopenfilename, asksaveasfile
 import pandas as pd
 import serial.tools.list_ports
+
+g_value = 0
+x = 0
+numbers = 0
+
+
+def all_children(window):
+    _list = window.winfo_children()
+
+    for item in _list:
+        if item.winfo_children():
+            _list.extend(item.winfo_children())
+
+    return _list
 
 
 def save_to_excel(data, path_to_save: str, columns=None) -> pd.DataFrame:
@@ -41,10 +56,11 @@ def read_arduino_serial():
     value.setDTR(1)
     value = str(value.readline())
     value = value.replace("'", '')
+    value = value.replace(" ", '')
     value = value.replace("b", '')
     value = value.replace("\\r", '')
     value = value.replace("\\n", '')
-    return int(int(value) / 1023 * 100)
+    return int(int(value) / 920.5 * 132)
 
 
 def resource_path(relative_path):
@@ -67,7 +83,7 @@ def create_win():
     # a5 = PhotoImage(file=str(resource_path("g1.png")))
     # win.tk.call('wm', 'iconphoto', win._w, a5)
     win.title("Readings from arduino")
-    win.geometry("800x600+0+0")
+    win.geometry("1000x800+0+0")
     win.resizable(width=True, height=True)
     win.configure(bg='black')
 
@@ -81,11 +97,20 @@ def read_from_excel():
     return False
 
 
-def play_excel():
-    pass
+def play_record(delay_ms: int = 1000):
+    file_numbers = read_from_excel()
+    for number in file_numbers:
+        time.sleep(delay_ms)
+        return number
 
 
-def read_excel_and_play():
-    numbers = read_from_excel()
-    play_excel()
-    print(numbers)
+def save_as_excel(data: list):
+    """
+    :param data:
+    :return:
+    """
+    file_name = ("Excel Workbook", "*.xlsx")
+    file = asksaveasfile(filetypes=[file_name], defaultextension=file_name)
+    data_frame = pd.DataFrame(data, columns=['numbers'])
+    data_frame.to_excel(file.name)
+    return file

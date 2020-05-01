@@ -1,10 +1,6 @@
 import tkinter as tk
 import cmath
-import sys
-import logging
 import math
-import time
-from decimal import Decimal
 
 
 # exec(open('images.py').read())

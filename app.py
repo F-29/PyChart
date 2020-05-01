@@ -1,12 +1,12 @@
 from tkinter import *
 import time
 import gaugelib
-import datetime
 import utils
 
 # region static for recurrent function
 g_value = 0
 x = 0
+# z = 0
 store_data = []
 
 # endregion
@@ -26,10 +26,35 @@ def read_serial_and_save():
     p1.set_value(int(g_value))
     x += 1
     if x > 1000:
-        #        graph1.draw_axes()
         x = 0
-    win.after(1000, read_serial_and_save)
-    utils.save_to_excel(store_data, str(file_path))
+    win.after(50, read_serial_and_save)
+    # utils.save_to_excel(store_data, str(file_path)) # for automatic save
+
+
+# def chart_record():
+#     global z
+#     # number = utils.play_record(1000)
+#     number = 5
+#     new_win = utils.create_win()
+#     new_exit_btn = Button(new_win, text="Exit", command=exit)
+#     new_exit_btn.pack(side=BOTTOM)
+#     p = gaugelib.DrawGauge2(
+#         new_win,
+#         max_value=125.0,
+#         min_value=0.0,
+#         size=435,
+#         bg_col='white',
+#         unit="ADC value %", bg_sel=2)
+#     widget_list_2 = utils.all_children(win)
+#     for i in widget_list_2:
+#         i.pack_forget()
+#     if number:
+#         p.set_value(int(number))
+#         z += 1
+#         if z > 1000:
+#             z = 0
+#         win.after(100, read_serial_and_save)
+#         p1.pack(side=BOTTOM)
 
 
 if __name__ == '__main__':
@@ -37,18 +62,19 @@ if __name__ == '__main__':
         if utils.is_arduino_connected():
             win = utils.create_win()
             port = utils.find_arduino_connected_port()
+            # save_button =
             exit_btn = Button(win, text="Exit", command=exit)
             exit_btn.pack(side=BOTTOM)
             p1 = gaugelib.DrawGauge2(
                 win,
                 max_value=125.0,
                 min_value=0.0,
-                size=435,
+                size=500,
                 bg_col='black',
                 unit="ADC value %", bg_sel=2)
-            p1.pack(side=BOTTOM)
-            read_from_excel_btn = Button(win, text="load excel file", command=utils.read_excel_and_play)
-            read_from_excel_btn.pack(side=TOP)
+            save_btn = Button(win, text="Save", command=lambda: utils.save_as_excel(store_data))
+            save_btn.pack(side=TOP)
+            p1.pack(side=BOTTOM, pady=20)
             read_serial_and_save()
             mainloop()
         else:
@@ -64,4 +90,7 @@ if __name__ == '__main__':
             log.pack()
             btn.pack()
             time.sleep(2.5)
+            # widget_list = utils.all_children(win)
+            # for item in widget_list:
+            #     item.pack_forget()
             mainloop()
